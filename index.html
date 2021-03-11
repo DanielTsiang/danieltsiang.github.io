@@ -8,7 +8,7 @@
         <meta name="description" content="Daniel Tsiang's Profile">
         <meta name="author" content="Daniel Tsiang">
         <meta name="keywords" content="Daniel, Tsiang">
-        
+
         <!-- Site Name, Title, and Description to be displayed -->
         <meta property="og:site_name" content="Daniel Tsiang">
         <meta property="og:title" content="Daniel Tsiang">
@@ -34,7 +34,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css" integrity="sha512-JW3fT0YTK7pT7w437SoX6GcW76jOZ6E0jGmrqBAcloC4GKT+njHOY4fX5KxJ9WfIXTkNrAF994525fAHp+KCxg==" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css">
-        
+
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-DMCDKRHTKZ"></script>
         <script>
@@ -43,7 +43,7 @@
           gtag('js', new Date());
 
           gtag('config', 'G-DMCDKRHTKZ', {
-              'page_path': location.pathname + location.search + location.hash
+              'page_path': location.pathname + location.search + location.hash,
               'link_attribution': true
           });
         </script>
@@ -52,7 +52,7 @@
     <body id="page-top">
 
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top" onclick="gtag('event', 'click', {'event_category': 'Profile photo', 'event_label': 'Profile photo clicked'});">
             <span class="d-none d-lg-block">
                 <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
             </span>
@@ -63,22 +63,22 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                        <a class="nav-link js-scroll-trigger" href="#about" onclick="gtag('event', 'click', {'event_category': 'Navbar link', 'event_label': 'Navbar about clicked'});">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+                        <a class="nav-link js-scroll-trigger" href="#experience" onclick="gtag('event', 'click', {'event_category': 'Navbar link', 'event_label': 'Navbar experience clicked'});">Experience</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+                        <a class="nav-link js-scroll-trigger" href="#portfolio" onclick="gtag('event', 'click', {'event_category': 'Navbar link', 'event_label': 'Navbar portfolio clicked'});">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+                        <a class="nav-link js-scroll-trigger" href="#skills" onclick="gtag('event', 'click', {'event_category': 'Navbar link', 'event_label': 'Navbar skills clicked'});">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+                        <a class="nav-link js-scroll-trigger" href="#education" onclick="gtag('event', 'click', {'event_category': 'Navbar link', 'event_label': 'Navbar education clicked'});">Education</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                        <a class="nav-link js-scroll-trigger" href="#contact" onclick="gtag('event', 'click', {'event_category': 'Navbar link', 'event_label': 'Navbar contact clicked'});">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -100,7 +100,7 @@
                     <p class="mb-5" style="max-width: 500px;" >After graduating from Imperial College London with a First Class Masters degree, I am now looking for my next challenge. I am a high potential and eager to learn engineer seeking entry-level software developer roles based in London.</p>
                     <ul class="list-inline list-social-icons mb-0">
                         <li class="list-inline-item">
-                            <a href="https://www.linkedin.com/in/danieltsiang/">
+                            <a href="https://www.linkedin.com/in/danieltsiang/" onclick="gtag('event', 'click', {'event_category': 'Social button', 'event_label': 'LinkedIn button clicked'});">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -108,7 +108,7 @@
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="https://github.com/DanielTsiang">
+                            <a href="https://github.com/DanielTsiang" onclick="gtag('event', 'click', {'event_category': 'Social button', 'event_label': 'Github button clicked'});">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -116,7 +116,7 @@
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="src/Daniel Tsiang CV 2021.pdf">
+                            <a href="src/Daniel Tsiang CV 2021.pdf" onclick="gtag('event', 'click', {'event_category': 'Social button', 'event_label': 'CV button clicked'});">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
@@ -422,7 +422,7 @@
                             <div class="contact-mail contact-side-desc contact-box-desc">
                                 <h3><i class="fa fa-envelope-o cl-atlantis fa-2x"></i> Email</h3>
                                 <address class="address-details-f">
-                                    Email: <a href="mailto:dan_tsiang@hotmail.co.uk" class="">dan_tsiang@hotmail.co.uk</a>
+                                    Email: <a href="mailto:dan_tsiang@hotmail.co.uk" class="" onclick="gtag('event', 'click', {'event_category': 'Email link', 'event_label': 'Email link clicked'});">dan_tsiang@hotmail.co.uk</a>
                                 </address>
                             </div>
                         </div>
