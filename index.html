@@ -42,7 +42,9 @@
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', 'G-DMCDKRHTKZ');
+          gtag('config', 'G-DMCDKRHTKZ', {
+              'page_path': location.pathname + location.search + location.hash
+          });
         </script>
    </head>
 
