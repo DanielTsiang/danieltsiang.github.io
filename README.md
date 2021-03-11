@@ -26,10 +26,10 @@ PC view:<br>
 * Use CSS with bootstrap to style webpage which can displays well on both PC and mobile devices.
 
 ### Getting Started
-1. Visit the web page [here](https://daniel-tsiang.netlify.app/).
+1. Visit the web page [here](https://danieltsiang.github.io).
 
 ### Contribution Guidelines
 If you would like to contribute code, identify bugs, or propose improvements, please fork this repository and submit a pull request with your suggestions. Below are some helpful links to help you get started:
-1. [Project's main repository](https://github.com/DanielTsiang/profile)
-2. [Project's issue tracker](https://github.com/DanielTsiang/profile/issues)
+1. [Project's main repository](https://github.com/DanielTsiang/danieltsiang.github.io)
+2. [Project's issue tracker](https://github.com/DanielTsiang/danieltsiang.github.io/issues)
 
