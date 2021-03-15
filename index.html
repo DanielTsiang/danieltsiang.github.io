@@ -41,10 +41,12 @@
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-
+          
           gtag('config', 'G-DMCDKRHTKZ', {
-              'page_path': location.pathname + location.search + location.hash,
-              'link_attribution': true
+              'custom_map': {
+                 'dimension1': 'event_category',
+                 'dimension2': 'event_label'
+               }
           });
         </script>
    </head>
