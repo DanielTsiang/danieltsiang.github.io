@@ -775,3 +775,8 @@ a:active {
     position:absolute;
 }
 
+.has-error{
+    font-size: small;
+    color: red;
+    display:block;
+}
