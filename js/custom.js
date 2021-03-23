@@ -26,14 +26,14 @@ $(function() {
 
 	// Validates the contact form and submits it using Formspree.
 	$.validator.setDefaults({
-		highlight: function(element) {
-			$(element).closest('.form-group').addClass('has-error');
+		errorElement: "span",
+		errorClass: "has-error",
+		highlight: function(element, errorClass) {
+			$(element).closest(".form-group").addClass(errorClass);
 		},
 		unhighlight: function(element) {
-			$(element).closest('.form-group').removeClass('has-error');
+			$(element).closest(".form-group").removeClass(errorClass);
 		},
-		errorElement: 'span',
-		errorClass: 'help-block',
 		errorPlacement: function(error, element) {
 			error.insertAfter(element);
 		}
