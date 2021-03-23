@@ -62,11 +62,11 @@ $(function() {
 		}
 	});
 
-	// Hides alert message for form submission error,
+	// Fade out alert message for form submission error,
 	// allows alert message to reappear if user tries to resubmit form.
 	$(function(){
 		$("[data-hide]").on("click", function() {
-			$(this).closest("." + $(this).attr("data-hide")).hide();
+			$(this).closest("." + $(this).attr("data-hide")).fadeOut();
 		});
 	});
 });
