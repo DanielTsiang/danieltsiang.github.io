@@ -31,12 +31,16 @@ $(function() {
 		highlight: function(element, errorClass) {
 			$(element).closest(".form-group").addClass(errorClass);
 		},
-		unhighlight: function(element) {
+		unhighlight: function(element, errorClass) {
 			$(element).closest(".form-group").removeClass(errorClass);
 		},
 		errorPlacement: function(error, element) {
-			error.insertAfter(element);
-		}
+			if (element.parent(".input-group").length) {
+				error.insertAfter(element.parent());
+			} else {
+			    error.insertAfter(element);
+			}
+		},
 	});
 
 	$("#contact-form").validate({
