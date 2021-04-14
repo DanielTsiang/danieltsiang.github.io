@@ -220,7 +220,7 @@
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img class="img-fluid" alt="Stock Simulator" width="900px" height="650px" src="https://user-images.githubusercontent.com/74436899/112735596-1f905480-8f45-11eb-9866-be901c8e0812.gif">
+                            <img class="img-fluid" alt="Stock Simulator" width="900px" height="650px" src="https://user-images.githubusercontent.com/74436899/114772989-63b58e80-9d66-11eb-930a-66e7cf8f471d.gif">
                         </a>
                     </div>
                     <div class="col-sm-4 portfolio-item filter web-app">
@@ -357,7 +357,8 @@
                                 <span class="date">Jan 2021 - Present</span>
                                 <h5 class="title">CS50x: Introduction to Computer Science</h5>
                                 <h6>Harvard University</h6>
-                                <p class="description">Topics covered: abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development</p>
+                                <p class="description">Topics covered: algorithms, data structures, security, software engineering, and web development</p>
+                                <p class="description">Final project: web app to simulate stock trading, queries an API for real stocks’ actual prices</p>
                                 <p class="description">Languages covered: Python, JavaScript (plus CSS, HTML and jQuery), C , SQL</p>
                             </div>
                         </div>
@@ -482,20 +483,20 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <img class="img-fluid img-centered" alt="Stock Simulator" width="900px" height="650px" src="https://user-images.githubusercontent.com/74436899/112735596-1f905480-8f45-11eb-9866-be901c8e0812.gif">
+                                        <img class="img-fluid img-centered" alt="Stock Simulator" width="900px" height="650px" src="https://user-images.githubusercontent.com/74436899/114772989-63b58e80-9d66-11eb-930a-66e7cf8f471d.gif">
                                     </div>
                                     <div class="col-md-6">
-                                        <p>A website via which users can create an account to simulate buying and selling stocks, using real-time financial data.</p>
+                                        <p>A web app that simulates managing portfolios of stocks, using real stocks’ prices by querying an API.</p>
                                         <ul class="list-inline item-details">
                                             <li>Date:
-                                                <span class="text-primary">March 2021</span>
+                                                <span class="text-primary">April 2021</span>
                                             </li>
                                             <li>Service:
-                                                <span class="text-primary">Web Development</span>
+                                                <span class="text-primary">Wep App Development</span>
                                             </li>
                                             <br>
                                             <li class="list-inline-item">
-                                                <a href="https://github.com/DanielTsiang/CS50x/tree/main/pset9/finance/">
+                                                <a href="https://github.com/DanielTsiang/stock-simulator">
                                                     <span class="fa-stack fa-lg">
                                                         <i class="fa fa-circle fa-stack-2x"></i>
                                                         <i class="fas fa-external-link-alt fa-stack-1x fa-inverse"></i>
@@ -542,7 +543,7 @@
                                                 <span class="text-primary">March 2021</span>
                                             </li>
                                             <li>Service:
-                                                <span class="text-primary">Web Development</span>
+                                                <span class="text-primary">Web App Development</span>
                                             </li>
                                             <br>
                                             <li class="list-inline-item">
@@ -593,7 +594,7 @@
                                                 <span class="text-primary">March 2021</span>
                                             </li>
                                             <li>Service:
-                                                <span class="text-primary">Console Development</span>
+                                                <span class="text-primary">Console Script Development</span>
                                             </li>
                                             <br>
                                             <li class="list-inline-item">
@@ -695,7 +696,7 @@
                                                 <span class="text-primary">December 2020</span>
                                             </li>
                                             <li>Service:
-                                                <span class="text-primary">Mobile Development</span>
+                                                <span class="text-primary">Web Development</span>
                                             </li>
                                             <br>
                                             <li class="list-inline-item">
@@ -746,7 +747,7 @@
                                                 <span class="text-primary">December 2020</span>
                                             </li>
                                             <li>Service:
-                                                <span class="text-primary">Mobile Development</span>
+                                                <span class="text-primary">Web Development</span>
                                             </li>
                                             <br>
                                             <li class="list-inline-item">
@@ -797,7 +798,7 @@
                                                 <span class="text-primary">January 2021</span>
                                             </li>
                                             <li>Service:
-                                                <span class="text-primary">Console Development</span>
+                                                <span class="text-primary">Console Script Development</span>
                                             </li>
                                             <br>
                                             <li class="list-inline-item">
@@ -848,7 +849,7 @@
                                                 <span class="text-primary">November 2020</span>
                                             </li>
                                             <li>Service:
-                                                <span class="text-primary">Console Development</span>
+                                                <span class="text-primary">Console Script Development</span>
                                             </li>
                                             <br>
                                             <li class="list-inline-item">
@@ -934,15 +935,17 @@
         <script src="https://kit.fontawesome.com/b4bf0585d5.js" crossorigin="anonymous"></script>
         <script src="js/custom.js"></script>
         <script>
-            $(document).ready(function() {
+            // Wait for the DOM to be ready
+            $(function() {
+                // Filter
                 $(".filter-b").click(function() {
-                    var value = $(this).attr('data-filter');
+                    var value = $(this).attr("data-filter");
                     if (value == "all") {
-                        $('.filter').show('1000');
+                        $(".filter").show("1000");
                     }
                     else {
-                        $(".filter").not('.'+value).hide('3000');
-                        $('.filter').filter('.'+value).show('3000');
+                        $(".filter").not("."+value).hide("3000");
+                        $(".filter").filter("."+value).show("3000");
                     }
                 });
 
@@ -951,16 +954,13 @@
                 }
 
                 $(this).addClass("active");
-            });
 
-            // SKILLS
-            $(function() {
-                $('.counter').counterUp({
+                // Skills counter animation
+                $(".counter").counterUp({
                     delay: 10,
                     time: 1000
                 });
             });
-
         </script>
 
     </body>
