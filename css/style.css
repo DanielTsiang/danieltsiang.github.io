@@ -447,8 +447,13 @@ a:active {
                       AWARD
 ======================================================*/
 
-#awards {
+#education {
     background: #f0f0f0;
+}
+
+.main-award {
+    margin: auto;
+    width: 100%;
 }
 
 #award-box {
@@ -641,7 +646,7 @@ a:active {
     #award-box .award,
     #award-box .award-content {
         float: right;
-        padding:5px;
+        padding: 5px;
         text-align: left;
     }
     #award-box .award:first-child:before,
