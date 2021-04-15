@@ -607,6 +607,10 @@ a:active {
     color: #39b3ff;
 }
 
+#award-box .small-title {
+    font-size: 16px;
+}
+
 #award-box .description {
     font-size: 16px;
     color: #777;
