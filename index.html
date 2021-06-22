@@ -199,6 +199,16 @@
                             <img class="img-fluid" alt="Stock Simulator" width="900" height="650" src="https://user-images.githubusercontent.com/74436899/115057720-528e8e00-9edc-11eb-8c97-61a974e3a996.gif">
                         </a>
                     </div>
+                    <div class="col-sm-4 portfolio-item filter console-script">
+                        <a class="portfolio-link" href="#tic-tac-toe-AI-modal" data-toggle="modal">
+                            <div class="caption-port">
+                                <div class="caption-port-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img class="img-fluid" alt="Tic-Tac-Toe AI" src="https://user-images.githubusercontent.com/74436899/122908200-c53c3f80-d34b-11eb-91c8-a3f9764c76d2.png">
+                        </a>
+                    </div>
                     <div class="col-sm-4 portfolio-item filter web-app">
                         <a class="portfolio-link" href="#birthdays-modal" data-toggle="modal">
                             <div class="caption-port">
@@ -207,16 +217,6 @@
                                 </div>
                             </div>
                             <img class="img-fluid" alt="birthdays" width="900" height="650" src="https://user-images.githubusercontent.com/74436899/112734248-7d6c6e80-8f3c-11eb-9066-95dec9380b41.gif">
-                        </a>
-                    </div>
-                    <div class="col-sm-4 portfolio-item filter console-script">
-                        <a class="portfolio-link" href="#cs50x-modal" data-toggle="modal">
-                            <div class="caption-port">
-                                <div class="caption-port-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img class="img-fluid" alt="CS50" src="https://user-images.githubusercontent.com/74436899/110039118-aed88c80-7d38-11eb-8fea-27aae78c0337.png">
                         </a>
                     </div>
                     <div class="col-sm-4 portfolio-item filter web-page">
@@ -229,14 +229,14 @@
                             <img class="img-fluid" alt="tic-tac-toe" src="https://user-images.githubusercontent.com/74436899/109683573-61f98800-7b77-11eb-9f1c-6c2ebf7c57b3.png">
                         </a>
                     </div>
-                    <div class="col-sm-4 portfolio-item filter web-page">
-                        <a class="portfolio-link" href="#trivia-modal" data-toggle="modal">
+                    <div class="col-sm-4 portfolio-item filter console-script">
+                        <a class="portfolio-link" href="#degrees-modal" data-toggle="modal">
                             <div class="caption-port">
                                 <div class="caption-port-content">
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img class="img-fluid" alt="trivia" src="https://user-images.githubusercontent.com/74436899/109650465-28178a00-7b55-11eb-9cac-9b6ecfed233d.png">
+                            <img class="img-fluid" alt="Degrees of Separation" src="https://user-images.githubusercontent.com/74436899/122908875-83f85f80-d34c-11eb-91ab-0329bec24161.jpg">
                         </a>
                     </div>
                     <div class="col-sm-4 portfolio-item filter web-page">
@@ -505,6 +505,52 @@
                 </div>
             </div>
         </div>
+        <div class="portfolio-modal modal fade" id="tic-tac-toe-AI-modal" tabindex="-1" role="dialog" aria-hidden="true" >
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl"></div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="modal-body">
+                                <div class="title-bar">
+                                    <div class="col-md-12">
+                                        <h2 class="text-center">Unbeatable Tic-Tac-Toe AI</h2>
+                                        <div class="heading-border"></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img class="img-fluid img-centered" alt="Tic-Tac-Toe AI" src="https://user-images.githubusercontent.com/74436899/122908200-c53c3f80-d34b-11eb-91c8-a3f9764c76d2.png">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p>An unbeatable Tic-Tac-Toe AI, implemented using Minimax algorithm with Alpha-Beta pruning to run more efficiently.</p>
+                                        <ul class="list-inline item-details">
+                                            <li>Date:
+                                                <span class="text-primary">June 2021</span>
+                                            </li>
+                                            <li>Service:
+                                                <span class="text-primary">Console Script Development</span>
+                                            </li>
+                                            <li class="list-inline-item mt-4">
+                                                <a href="https://github.com/DanielTsiang/CS50ai/tree/main/project0/tictactoe" class="btn btn-general btn-green mr-3">Github</a>
+                                                <a href="https://replit.com/@DanielTsiang/tic-tac-toe" class="btn btn-general btn-green mr-3">Demo</a>
+                                            </li>
+                                        </ul>
+                                        <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                                            <i class="fa fa-times"></i> Close
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="portfolio-modal modal fade" id="birthdays-modal" tabindex="-1" role="dialog" aria-hidden="true" >
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -538,51 +584,6 @@
                                             <li class="list-inline-item mt-4">
                                                 <a href="https://github.com/DanielTsiang/CS50x/tree/main/pset9/birthdays/" class="btn btn-general btn-green mr-3">Github</a>
                                                 <a href="https://user-images.githubusercontent.com/74436899/112734248-7d6c6e80-8f3c-11eb-9066-95dec9380b41.gif" class="btn btn-general btn-green mr-3">GIF</a>
-                                            </li>
-                                        </ul>
-                                        <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
-                                            <i class="fa fa-times"></i> Close
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="portfolio-modal modal fade" id="cs50x-modal" tabindex="-1" role="dialog" aria-hidden="true" >
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal">
-                        <div class="lr">
-                            <div class="rl"></div>
-                        </div>
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="modal-body">
-                                <div class="title-bar">
-                                    <div class="col-md-12">
-                                        <h2 class="text-center">CS50x Programs</h2>
-                                        <div class="heading-border"></div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <img class="img-fluid img-centered" alt="CS50" src="https://user-images.githubusercontent.com/74436899/110039118-aed88c80-7d38-11eb-8fea-27aae78c0337.png">
-                                    </div>
-                                    <div class="col-md-6">
-                                        <p>A repository of the programs I wrote as part of Harvard University's CS50x Computer Science course.</p>
-                                        <ul class="list-inline item-details">
-                                            <li>Date:
-                                                <span class="text-primary">March 2021</span>
-                                            </li>
-                                            <li>Service:
-                                                <span class="text-primary">Console Script Development</span>
-                                            </li>
-                                            <li class="list-inline-item mt-4">
-                                                <a href="https://github.com/DanielTsiang/CS50x" class="btn btn-general btn-green mr-3">Github</a>
                                             </li>
                                         </ul>
                                         <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
@@ -642,7 +643,7 @@
                 </div>
             </div>
         </div>
-        <div class="portfolio-modal modal fade" id="trivia-modal" tabindex="-1" role="dialog" aria-hidden="true" >
+        <div class="portfolio-modal modal fade" id="degrees-modal" tabindex="-1" role="dialog" aria-hidden="true" >
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="close-modal" data-dismiss="modal">
@@ -655,26 +656,26 @@
                             <div class="modal-body">
                                 <div class="title-bar">
                                     <div class="col-md-12">
-                                        <h2 class="text-center">Trivia</h2>
+                                        <h2 class="text-center">Degrees of Separation</h2>
                                         <div class="heading-border"></div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <img class="img-fluid img-centered" alt="Trivia" src="https://user-images.githubusercontent.com/74436899/109650465-28178a00-7b55-11eb-9cac-9b6ecfed233d.png">
+                                        <img class="img-fluid img-centered" alt="Degrees of Separation" src="https://user-images.githubusercontent.com/74436899/122908875-83f85f80-d34c-11eb-91ab-0329bec24161.jpg">
                                     </div>
                                     <div class="col-md-6">
-                                        <p>An interactive webpage that lets users answer trivia questions. Built using JavaScript with jQuery, styled with CSS. Designed to work on PC and mobile devices.</p>
+                                        <p>A program that determines how many “degrees of separation” apart two actors are by choosing a sequence of movies that connects them. The program uses a breadth-first search algorithm to find the shortest path from one actor to another.</p>
                                         <ul class="list-inline item-details">
                                             <li>Date:
-                                                <span class="text-primary">February 2021</span>
+                                                <span class="text-primary">June 2021</span>
                                             </li>
                                             <li>Service:
-                                                <span class="text-primary">Web Development</span>
+                                                <span class="text-primary">Console Script Development</span>
                                             </li>
                                             <li class="list-inline-item mt-4">
-                                                <a href="https://github.com/DanielTsiang/CS50x/tree/main/pset8/trivia" class="btn btn-general btn-green mr-3">Github</a>
-                                                <a href="https://daniel-tsiang-trivia.netlify.app/" class="btn btn-general btn-green mr-3">Demo</a>
+                                                <a href="https://github.com/DanielTsiang/CS50ai/tree/main/project0/degrees" class="btn btn-general btn-green mr-3">Github</a>
+                                                <a href="https://replit.com/@DanielTsiang/degrees" class="btn btn-general btn-green mr-3">Demo</a>
                                             </li>
                                         </ul>
                                         <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
@@ -812,6 +813,7 @@
                                             </li>
                                             <li class="list-inline-item mt-4">
                                                 <a href="https://github.com/DanielTsiang/CSV-metrics-Python" class="btn btn-general btn-green mr-3">Github</a>
+                                                <a href="https://replit.com/@DanielTsiang/CSV-metrics-Python" class="btn btn-general btn-green mr-3">Demo</a>
                                             </li>
                                         </ul>
                                         <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
