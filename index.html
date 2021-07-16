@@ -249,6 +249,16 @@
                         </a>
                     </div>
                     <div class="col-sm-4 portfolio-item filter console-script">
+                        <a class="portfolio-link" href="#heredity-modal" data-toggle="modal">
+                            <div class="caption-port">
+                                <div class="caption-port-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img class="img-fluid" alt="Heredity" src="https://user-images.githubusercontent.com/74436899/125932475-d4479b68-644a-4bf1-b38e-87b90d5b1ceb.png">
+                        </a>
+                    </div>
+                    <div class="col-sm-4 portfolio-item filter console-script">
                         <a class="portfolio-link" href="#pagerank-modal" data-toggle="modal">
                             <div class="caption-port">
                                 <div class="caption-port-content">
@@ -256,16 +266,6 @@
                                 </div>
                             </div>
                             <img class="img-fluid" alt="PageRank AI" src="https://user-images.githubusercontent.com/74436899/125453255-1a46730d-c7d9-49df-a6d2-33854a48bf7e.png">
-                        </a>
-                    </div>
-                    <div class="col-sm-4 portfolio-item filter web-page">
-                        <a class="portfolio-link" href="#tip-calculator-modal" data-toggle="modal">
-                            <div class="caption-port">
-                                <div class="caption-port-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img class="img-fluid" alt="Tip Calculator" src="https://user-images.githubusercontent.com/74436899/109735091-10262180-7bba-11eb-833e-0952d4030992.png">
                         </a>
                     </div>
                     <div class="col-sm-4 portfolio-item filter web-page">
@@ -743,6 +743,53 @@
                 </div>
             </div>
         </div>
+        <div class="portfolio-modal modal fade" id="heredity-modal" tabindex="-1" role="dialog" aria-hidden="true" >
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl"></div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="modal-body">
+                                <div class="title-bar">
+                                    <div class="col-md-12">
+                                        <h2 class="text-center">Heredity AI</h2>
+                                        <div class="heading-border"></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img class="img-fluid img-centered" alt="Tip Calculator" src="https://user-images.githubusercontent.com/74436899/125932475-d4479b68-644a-4bf1-b38e-87b90d5b1ceb.png">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p>An AI that assesses the likelihood that a person will have a particular genetic trait.</p>
+                                        <p>Relationships are modelled by forming a Bayesian Network of each person's 'Gene' and 'Trait' random variables.</p>
+                                        <ul class="list-inline item-details">
+                                            <li>Date:
+                                                <span class="text-primary">July 2021</span>
+                                            </li>
+                                            <li>Service:
+                                                <span class="text-primary">Console Script Development</span>
+                                            </li>
+                                            <li class="list-inline-item mt-4">
+                                                <a href="https://github.com/DanielTsiang/CS50ai/tree/main/project2/heredity" class="btn btn-general btn-green mr-3">Github</a>
+                                                <a href="https://replit.com/@DanielTsiang/heredity" class="btn btn-general btn-green mr-3">Demo</a>
+                                            </li>
+                                        </ul>
+                                        <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                                            <i class="fa fa-times"></i> Close
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="portfolio-modal modal fade" id="pagerank-modal" tabindex="-1" role="dialog" aria-hidden="true" >
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -781,52 +828,6 @@
                                             <li class="list-inline-item mt-4">
                                                 <a href="https://github.com/DanielTsiang/CS50ai/tree/main/project2/pagerank" class="btn btn-general btn-green mr-3">Github</a>
                                                 <a href="https://replit.com/@DanielTsiang/pagerank" class="btn btn-general btn-green mr-3">Demo</a>
-                                            </li>
-                                        </ul>
-                                        <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
-                                            <i class="fa fa-times"></i> Close
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="portfolio-modal modal fade" id="tip-calculator-modal" tabindex="-1" role="dialog" aria-hidden="true" >
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal">
-                        <div class="lr">
-                            <div class="rl"></div>
-                        </div>
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="modal-body">
-                                <div class="title-bar">
-                                    <div class="col-md-12">
-                                        <h2 class="text-center">Tip Calculator</h2>
-                                        <div class="heading-border"></div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <img class="img-fluid img-centered" alt="Tip Calculator" src="https://user-images.githubusercontent.com/74436899/109735091-10262180-7bba-11eb-833e-0952d4030992.png">
-                                    </div>
-                                    <div class="col-md-6">
-                                        <p>A tip calculator built using JavaScript and styled with CSS. Designed to work on PC and mobile devices.</p>
-                                        <ul class="list-inline item-details">
-                                            <li>Date:
-                                                <span class="text-primary">December 2020</span>
-                                            </li>
-                                            <li>Service:
-                                                <span class="text-primary">Web Development</span>
-                                            </li>
-                                            <li class="list-inline-item mt-4">
-                                                <a href="https://github.com/DanielTsiang/TipCalculator-JavaScript" class="btn btn-general btn-green mr-3">Github</a>
-                                                <a href="https://daniel-tsiang-tip-calculator.netlify.app/" class="btn btn-general btn-green mr-3">Demo</a>
                                             </li>
                                         </ul>
                                         <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
