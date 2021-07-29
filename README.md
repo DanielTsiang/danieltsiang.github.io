@@ -4,11 +4,13 @@
 A webpage that displays my CV in an interactive format. Designed with bootstrap to display well on mobile devices.
 
 ### Example
-Mobile view:<br>
-![Profile mobile view](https://user-images.githubusercontent.com/74436899/110144425-3b825980-7dd0-11eb-93b1-ea44f6c6be05.png "Profile - Mobile view")
+Mobile view:
+<p align="left">
+  <img width="350" src="https://user-images.githubusercontent.com/74436899/127509762-58724de5-5bce-4015-9a43-fa5ac517c308.png">
+</p>
 
 PC view:<br>
-![Profile PC view](https://user-images.githubusercontent.com/74436899/110147349-7c2fa200-7dd3-11eb-818d-9dc4996e8067.png "Profile - PC view")
+![Profile PC view](https://user-images.githubusercontent.com/74436899/127509824-2713ee3d-c0f7-4a4f-afaf-6ee568d50f4b.png "Profile - PC view")
 
 ### Technologies Used
 * HTML
