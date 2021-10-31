@@ -635,6 +635,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <p>An AI that teaches itself to play Nim through reinforcement learning.</p>
+                                        <p>The AI learns from training itself and from playing against a real human player.</p>
                                         <p>In the game Nim, players take turns removing any number of objects from a pile. Whoever removes the last object loses.</p>
                                         <ul class="list-inline item-details">
                                             <li>Date:
@@ -907,6 +908,14 @@
         <script src="https://kit.fontawesome.com/b4bf0585d5.js" crossorigin="anonymous"></script>
         <script src="js/custom.js"></script>
         <script>
+            // Function for displaying modal on page load if URL contains # on initial page load
+            function openModalOnHash() {
+                if(window.location.hash) {
+                    var hash = window.location.hash.substring(1);
+                    $("#"+hash).modal("show");
+                }
+            }
+
             // Wait for the DOM to be ready
             $(function() {
                 // Filter
@@ -932,6 +941,9 @@
                     delay: 10,
                     time: 1000
                 });
+
+                // Display modal on page load if URL contains # on initial page load
+                openModalOnHash();
             });
         </script>
 
