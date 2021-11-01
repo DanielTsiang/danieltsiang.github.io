@@ -908,14 +908,6 @@
         <script src="https://kit.fontawesome.com/b4bf0585d5.js" crossorigin="anonymous"></script>
         <script src="js/custom.js"></script>
         <script>
-            // Function for displaying modal on page load if URL contains # on initial page load
-            function openModalOnHash() {
-                if(window.location.hash) {
-                    var hash = window.location.hash.substring(1);
-                    $("#"+hash).modal("show");
-                }
-            }
-
             // Wait for the DOM to be ready
             $(function() {
                 // Filter
@@ -943,7 +935,12 @@
                 });
 
                 // Display modal on page load if URL contains # on initial page load
-                openModalOnHash();
+                $(".modal").each(function () {
+                    const modalId = `#${$(this).attr("id")}`;
+                    if (window.location.href.indexOf(modalId) !== -1) {
+                        $(modalId).modal("show");
+                    }
+                });
             });
         </script>
 
