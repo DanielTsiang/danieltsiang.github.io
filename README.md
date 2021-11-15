@@ -1,7 +1,7 @@
 # Profile
 
 ### Description
-A webpage that displays my CV in an interactive format. Designed with bootstrap to display well on mobile devices.
+A webpage that displays my CV in an interactive format. Designed with Bootstrap so webpage displays well on both PC and mobile devices.
 
 ### Getting Started
 1. Visit the web page [here](https://danieltsiang.github.io).
@@ -26,6 +26,6 @@ PC view:<br>
 ### Goals
 * Create a webpage using HTML, CSS, JavaScript to display my CV in an aesthetic manner.
 * Webpage should have a navigation bar and smooth scrolling.
-* Use bootstrap modals to display my portofolio which can be filtered and popup when clicked on to show more information.
+* Use Bootstrap modals to display my portofolio which can be filtered and popup when clicked on to show more information.
 * Use jQuery and AJAX to create a 'Contact Me' form, a popup should display a 'success' or 'error' message on the same page when user submits form. 
-* Use CSS with bootstrap to style webpage which can displays well on both PC and mobile devices.
+* Use CSS with Bootstrap to style webpage which displays well on both PC and mobile devices.
