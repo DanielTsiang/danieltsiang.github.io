@@ -96,7 +96,7 @@
                       <span class="text-primary">Developer</span>
                     </div>
                     <p class="mb-3" style="max-width: 500px;" >I am a self-taught programmer with a First-Class Masters in Engineering (MEng) degree from Imperial College London.</p>
-                    <p class="mb-5" style="max-width: 500px;" >I am excited to take on my next challenge, working as a Software Engineer at Starling Bank.</p>
+                    <p class="mb-5" style="max-width: 500px;" >I am currently enjoying working as a Software Engineer at Starling Bank.</p>
                     <ul class="list-inline list-social-icons mb-0">
                         <li class="list-inline-item">
                             <a href="https://www.linkedin.com/in/danieltsiang/" onclick="gtag('event', 'click', {'event_category': 'Social button', 'event_label': 'LinkedIn button clicked'});">
@@ -226,13 +226,23 @@
                         </a>
                     </div>
                     <div class="col-sm-4 portfolio-item filter console-script">
+                        <a class="portfolio-link" href="#traffic-modal" data-toggle="modal">
+                            <div class="caption-port">
+                                <div class="caption-port-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img class="img-fluid" alt="Traffic Signs AI" src="https://user-images.githubusercontent.com/74436899/141666185-8f9e1f59-8fe5-43a8-82a8-5ca4edce5b1a.jpg">
+                        </a>
+                    </div>
+                    <div class="col-sm-4 portfolio-item filter console-script">
                         <a class="portfolio-link" href="#shopping-modal" data-toggle="modal">
                             <div class="caption-port">
                                 <div class="caption-port-content">
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img class="img-fluid" alt="Shopping AI" src="https://user-images.githubusercontent.com/74436899/131151571-30f2c42f-dde1-4b2a-bbfb-527758565c67.png">
+                            <img class="img-fluid" alt="Shopping Purchases AI" src="https://user-images.githubusercontent.com/74436899/131151571-30f2c42f-dde1-4b2a-bbfb-527758565c67.png">
                         </a>
                     </div>
                     <div class="col-sm-4 portfolio-item filter console-script">
@@ -263,16 +273,6 @@
                                 </div>
                             </div>
                             <img class="img-fluid" alt="PageRank AI" src="https://user-images.githubusercontent.com/74436899/125453255-1a46730d-c7d9-49df-a6d2-33854a48bf7e.png">
-                        </a>
-                    </div>
-                    <div class="col-sm-4 portfolio-item filter console-script">
-                        <a class="portfolio-link" href="#degrees-modal" data-toggle="modal">
-                            <div class="caption-port">
-                                <div class="caption-port-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img class="img-fluid" alt="Degrees of Separation" src="https://user-images.githubusercontent.com/74436899/122908875-83f85f80-d34c-11eb-91ab-0329bec24161.jpg">
                         </a>
                     </div>
                 </div>
@@ -350,7 +350,7 @@
                                 <p class="description">Coded AI programs to:
                                     <ul>
                                         <li>Play Minesweeper, Tic-Tac-Toe and Nim games optimally</li>
-                                        <li>Train Machine Learning model to predict whether customers will complete online purchases</li>
+                                        <li>Train Machine Learning models to predict whether customers will complete online purchases, and recognise traffic signs</li>
                                         <li>Generate crossword puzzles</li>
                                         <li>Estimate genetic inheritance likelihood</li>
                                         <li>Rank webpages by importance</li>
@@ -660,6 +660,53 @@
                 </div>
             </div>
         </div>
+        <div class="portfolio-modal modal fade" id="traffic-modal" tabindex="-1" role="dialog" aria-hidden="true" >
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl"></div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="modal-body">
+                                <div class="title-bar">
+                                    <div class="col-md-12">
+                                        <h2 class="text-center">Traffic Signs AI</h2>
+                                        <div class="heading-border"></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img class="img-fluid img-centered" alt="Traffic Signs AI" src="https://user-images.githubusercontent.com/74436899/141666185-8f9e1f59-8fe5-43a8-82a8-5ca4edce5b1a.jpg">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p>An AI that classifies which traffic sign appears in a photograph.</p>
+                                        <p>The AI uses a Convolutional Neural Network based on the TensorFlow Keras Sequential model.</p>
+                                        <ul class="list-inline item-details">
+                                            <li>Date:
+                                                <span class="text-primary">November 2021</span>
+                                            </li>
+                                            <li>Service:
+                                                <span class="text-primary">Console Script Development</span>
+                                            </li>
+                                            <li class="list-inline-item mt-4">
+                                                <a href="https://github.com/DanielTsiang/CS50ai/tree/main/project5/traffic" class="btn btn-general btn-green mr-3">Github</a>
+                                                <a href="https://user-images.githubusercontent.com/74436899/141786355-df10ee7c-c161-4e0c-b0c8-36bc7e40bbd4.gif" class="btn btn-general btn-green mr-3">GIF</a>
+                                            </li>
+                                        </ul>
+                                        <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                                            <i class="fa fa-times"></i> Close
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="portfolio-modal modal fade" id="shopping-modal" tabindex="-1" role="dialog" aria-hidden="true" >
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -673,13 +720,13 @@
                             <div class="modal-body">
                                 <div class="title-bar">
                                     <div class="col-md-12">
-                                        <h2 class="text-center">Shopping AI</h2>
+                                        <h2 class="text-center">Shopping Purchases AI</h2>
                                         <div class="heading-border"></div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <img class="img-fluid img-centered" alt="Shopping AI" src="https://user-images.githubusercontent.com/74436899/131151571-30f2c42f-dde1-4b2a-bbfb-527758565c67.png">
+                                        <img class="img-fluid img-centered" alt="Shopping Purchases AI" src="https://user-images.githubusercontent.com/74436899/131151571-30f2c42f-dde1-4b2a-bbfb-527758565c67.png">
                                     </div>
                                     <div class="col-md-6">
                                         <p>An AI that predicts whether online shopping customers will complete a purchase, by using a nearest-neighbor classifier.</p>
@@ -838,52 +885,6 @@
                                             <li class="list-inline-item mt-4">
                                                 <a href="https://github.com/DanielTsiang/CS50ai/tree/main/project2/pagerank" class="btn btn-general btn-green mr-3">Github</a>
                                                 <a href="https://replit.com/@DanielTsiang/pagerank" class="btn btn-general btn-green mr-3">Demo</a>
-                                            </li>
-                                        </ul>
-                                        <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
-                                            <i class="fa fa-times"></i> Close
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="portfolio-modal modal fade" id="degrees-modal" tabindex="-1" role="dialog" aria-hidden="true" >
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal">
-                        <div class="lr">
-                            <div class="rl"></div>
-                        </div>
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="modal-body">
-                                <div class="title-bar">
-                                    <div class="col-md-12">
-                                        <h2 class="text-center">Degrees of Separation AI</h2>
-                                        <div class="heading-border"></div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <img class="img-fluid img-centered" alt="Degrees of Separation" src="https://user-images.githubusercontent.com/74436899/122908875-83f85f80-d34c-11eb-91ab-0329bec24161.jpg">
-                                    </div>
-                                    <div class="col-md-6">
-                                        <p>A program that determines how many “degrees of separation” apart two actors are by choosing a sequence of movies that connects them. The program uses a breadth-first search algorithm to find the shortest path from one actor to another.</p>
-                                        <ul class="list-inline item-details">
-                                            <li>Date:
-                                                <span class="text-primary">June 2021</span>
-                                            </li>
-                                            <li>Service:
-                                                <span class="text-primary">Console Script Development</span>
-                                            </li>
-                                            <li class="list-inline-item mt-4">
-                                                <a href="https://github.com/DanielTsiang/CS50ai/tree/main/project0/degrees" class="btn btn-general btn-green mr-3">Github</a>
-                                                <a href="https://replit.com/@DanielTsiang/degrees" class="btn btn-general btn-green mr-3">Demo</a>
                                             </li>
                                         </ul>
                                         <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
