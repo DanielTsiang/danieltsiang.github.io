@@ -186,13 +186,23 @@
                 </div>
                 <div class="row my-auto">
                     <div class="col-sm-4 portfolio-item filter web-app">
+                        <a class="portfolio-link" href="#traffic-modal" data-toggle="modal">
+                            <div class="caption-port">
+                                <div class="caption-port-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img class="img-fluid" alt="Traffic Signs Classifier" src="https://user-images.githubusercontent.com/74436899/141666185-8f9e1f59-8fe5-43a8-82a8-5ca4edce5b1a.jpg">
+                        </a>
+                    </div>
+                    <div class="col-sm-4 portfolio-item filter web-app">
                         <a class="portfolio-link" href="#stock-simulator-modal" data-toggle="modal">
                             <div class="caption-port">
                                 <div class="caption-port-content">
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img class="img-fluid" alt="Stock Simulator" width="900" height="650" src="https://user-images.githubusercontent.com/74436899/115057720-528e8e00-9edc-11eb-8c97-61a974e3a996.gif">
+                            <img class="img-fluid" alt="Stock Simulator" width="900" height="650" src="https://user-images.githubusercontent.com/74436899/150889093-7f8cb6d7-9bbe-4c66-bbfa-360189136f88.png">
                         </a>
                     </div>
                     <div class="col-sm-4 portfolio-item filter console-script">
@@ -233,16 +243,6 @@
                                 </div>
                             </div>
                             <img class="img-fluid" alt="Answer Bot" src="https://user-images.githubusercontent.com/74436899/146823355-1ba07602-d886-4b1c-9da6-674d58f29dc9.jpeg">
-                        </a>
-                    </div>
-                    <div class="col-sm-4 portfolio-item filter console-script">
-                        <a class="portfolio-link" href="#traffic-modal" data-toggle="modal">
-                            <div class="caption-port">
-                                <div class="caption-port-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img class="img-fluid" alt="Traffic Signs AI" src="https://user-images.githubusercontent.com/74436899/141666185-8f9e1f59-8fe5-43a8-82a8-5ca4edce5b1a.jpg">
                         </a>
                     </div>
                     <div class="col-sm-4 portfolio-item filter console-script">
@@ -317,6 +317,12 @@
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="skill-item">
+                                <i class="devicon-docker-plain fa-5x"></i>
+                                <h2>Docker</h2>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="skill-item">
                                 <i class="devicon-flask-original fa-5x"></i>
                                 <h2>Flask</h2>
                             </div>
@@ -325,12 +331,6 @@
                             <div class="skill-item">
                                 <i class="devicon-tensorflow-original fa-5x"></i>
                                 <h2>TensorFlow</h2>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="skill-item">
-                                <i class="devicon-jquery-plain fa-5x"></i>
-                                <h2>jQuery</h2>
                             </div>
                         </div>
                     </div>
@@ -480,6 +480,55 @@
         <!--====================================================
                             PORTFOLIO MODALS
         ======================================================-->
+        <div class="portfolio-modal modal fade" id="traffic-modal" tabindex="-1" role="dialog" aria-hidden="true" >
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl"></div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="modal-body">
+                                <div class="title-bar">
+                                    <div class="col-md-12">
+                                        <h2 class="text-center">Traffic Signs Classifier</h2>
+                                        <div class="heading-border"></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img class="img-fluid img-centered" alt="Traffic Signs Classifier" src="https://user-images.githubusercontent.com/74436899/150897787-83932de5-75dd-4977-9e54-80ac2741ec32.gif">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p>A single-page web app serving a machine learning model which classifies traffic signs.</p>
+                                        <p>This Flask app is served by Gunicorn with NGINX as the reverse proxy.</p>
+                                        <p>The Machine Learning model is a Convoluted Neural Network trained by myself using the TensorFlow library.</p>
+                                        <ul class="list-inline item-details">
+                                            <li>Date:
+                                                <span class="text-primary">January 2022</span>
+                                            </li>
+                                            <li>Service:
+                                                <span class="text-primary">Wep App Development</span>
+                                            </li>
+                                            <li class="list-inline-item mt-4">
+                                                <a href="https://github.com/DanielTsiang/traffic-sign-classifier" class="btn btn-general btn-green mr-3 mb-3">Github</a>
+                                                <a href="https://user-images.githubusercontent.com/74436899/150699215-113d55a2-2fd8-4e72-a37f-15f39c3342d1.mp4" class="btn btn-general btn-green mr-3 mb-3">Video Demo</a>
+                                                <a href="https://traffic-sign-classifier-dt.herokuapp.com/" class="btn btn-general btn-green mr-3 mb-3">Live Demo</a>
+                                            </li>
+                                        </ul>
+                                        <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                                            <i class="fa fa-times"></i> Close
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="portfolio-modal modal fade" id="stock-simulator-modal" tabindex="-1" role="dialog" aria-hidden="true" >
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -511,9 +560,9 @@
                                                 <span class="text-primary">Wep App Development</span>
                                             </li>
                                             <li class="list-inline-item mt-4">
-                                                <a href="https://github.com/DanielTsiang/stock-simulator" class="btn btn-general btn-green mr-3">Github</a>
-                                                <a href="https://user-images.githubusercontent.com/74436899/147715897-edcc5863-2ac8-40cb-9abf-597f02b1aa52.mp4" class="btn btn-general btn-green mr-3">Video</a>
-                                                <a href="https://stock-simulator-dt.herokuapp.com/" class="btn btn-general btn-green mr-3">Demo</a>
+                                                <a href="https://github.com/DanielTsiang/stock-simulator" class="btn btn-general btn-green mr-3 mb-3">Github</a>
+                                                <a href="https://user-images.githubusercontent.com/74436899/147715897-edcc5863-2ac8-40cb-9abf-597f02b1aa52.mp4" class="btn btn-general btn-green mr-3 mb-3">Video Demo</a>
+                                                <a href="https://stock-simulator-dt.herokuapp.com/" class="btn btn-general btn-green mr-3 mb-3">Live Demo</a>
                                             </li>
                                         </ul>
                                         <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
@@ -701,54 +750,6 @@
                                             <li class="list-inline-item mt-4">
                                                 <a href="https://github.com/DanielTsiang/CS50ai/tree/main/project6/answerbot" class="btn btn-general btn-green mr-3">Github</a>
                                                 <a href="https://replit.com/@DanielTsiang/answerbot#README.md" class="btn btn-general btn-green mr-3">Demo</a>
-                                            </li>
-                                        </ul>
-                                        <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
-                                            <i class="fa fa-times"></i> Close
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="portfolio-modal modal fade" id="traffic-modal" tabindex="-1" role="dialog" aria-hidden="true" >
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal">
-                        <div class="lr">
-                            <div class="rl"></div>
-                        </div>
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="modal-body">
-                                <div class="title-bar">
-                                    <div class="col-md-12">
-                                        <h2 class="text-center">Traffic Signs AI</h2>
-                                        <div class="heading-border"></div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <img class="img-fluid img-centered" alt="Traffic Signs AI" src="https://user-images.githubusercontent.com/74436899/141786355-df10ee7c-c161-4e0c-b0c8-36bc7e40bbd4.gif">
-                                    </div>
-                                    <div class="col-md-6">
-                                        <p>An AI that classifies which traffic sign appears in a photograph.</p>
-                                        <p>The AI uses a Convolutional Neural Network based on the TensorFlow Keras Sequential model.</p>
-                                        <ul class="list-inline item-details">
-                                            <li>Date:
-                                                <span class="text-primary">November 2021</span>
-                                            </li>
-                                            <li>Service:
-                                                <span class="text-primary">Console Script Development</span>
-                                            </li>
-                                            <li class="list-inline-item mt-4">
-                                                <a href="https://github.com/DanielTsiang/CS50ai/tree/main/project5/traffic" class="btn btn-general btn-green mr-3 mb-3">Github</a>
-                                                <a href="https://user-images.githubusercontent.com/74436899/147715368-b3fb4935-0747-4f8f-980d-57545a8ac363.mp4" class="btn btn-general btn-green mr-3 mb-3">Training Video</a>
-                                                <a href="https://replit.com/@DanielTsiang/traffic#README.md" class="btn btn-general btn-green mr-3 mb-3">Testing Demo</a>
                                             </li>
                                         </ul>
                                         <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
