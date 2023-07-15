@@ -2,7 +2,7 @@
 [![Profile](https://img.shields.io/website-up-down-green-red/https/danieltsiang.github.io.svg)](https://danieltsiang.github.io/)
 [![pages-build-deployment](https://github.com/DanielTsiang/danieltsiang.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/DanielTsiang/danieltsiang.github.io/actions/workflows/pages/pages-build-deployment)
 [![Code Quality](https://img.shields.io/lgtm/grade/javascript/github/DanielTsiang/danieltsiang.github.io?label=code%20quality&logo=code%20quality)](https://lgtm.com/projects/g/DanielTsiang/danieltsiang.github.io/context:javascript)
-[![Profile views](https://gpvc.arturio.dev/danieltsiang)](https://gpvc.arturio.dev/danieltsiang)
+[![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fdanieltsiang.github.io%2F&label=Hits&countColor=%2337d67a&style=plastic)](https://visitorbadge.io/status?path=https%3A%2F%2Fdanieltsiang.github.io%2F)
 [![Buymeacoffee](https://badgen.net/badge/icon/buymeacoffee?icon=buymeacoffee&label)](https://www.buymeacoffee.com/dantsiang8)
 
 ## Description
