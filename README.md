@@ -1,14 +1,14 @@
 # Profile
-[![Profile](https://img.shields.io/website-up-down-green-red/https/danieltsiang.github.io.svg)](https://danieltsiang.github.io/)
-[![pages-build-deployment](https://github.com/DanielTsiang/danieltsiang.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/DanielTsiang/danieltsiang.github.io/actions/workflows/pages/pages-build-deployment)
-[![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fdanieltsiang.github.io%2F&label=Hits&countColor=%2337d67a&style=flat)](https://visitorbadge.io/status?path=https%3A%2F%2Fdanieltsiang.github.io%2F)
+[![Profile](https://img.shields.io/website-up-down-green-red/https/daniel-tsiang.github.io.svg)](https://daniel-tsiang.github.io/)
+[![pages-build-deployment](https://github.com/daniel-tsiang/daniel-tsiang.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/daniel-tsiang/daniel-tsiang.github.io/actions/workflows/pages/pages-build-deployment)
+[![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fdaniel-tsiang.github.io%2F&label=Hits&countColor=%2337d67a&style=flat)](https://visitorbadge.io/status?path=https%3A%2F%2Fdaniel-tsiang.github.io%2F)
 [![Buymeacoffee](https://img.shields.io/badge/Donate-Buy%20Me%20A%20Coffee-orange.svg?style=flat&logo=buymeacoffee)](https://www.buymeacoffee.com/dantsiang8)
 
 ## Description
 A webpage that displays my CV in an interactive format. Designed with Bootstrap so webpage displays well on both PC and mobile devices.
 
 ## Getting Started
-1. Visit the web page [here](https://danieltsiang.github.io).
+1. Visit the web page [here](https://daniel-tsiang.github.io).
 
 ## Specification
 * Create a webpage using HTML, CSS, JavaScript to display my CV in an aesthetic manner.
